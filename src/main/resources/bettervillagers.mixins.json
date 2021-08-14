@@ -1,0 +1,13 @@
+{
+  "package": "us.spaceclouds42.bettervillagers.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "required": true,
+
+  "mixins": [
+    "EmptyJavaMixin"
+  ],
+
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

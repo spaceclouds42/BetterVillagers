@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "better-villagers",
+  "version": "${version}",
+  "name": "Better Villagers",
+  "description": "Villagers overhaul made for ServJam Summer 2021.",
+  "authors": [
+    "SpaceClouds42"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/better-villagers",
+    "sources": "https://github.com/SpaceClouds42/BetterVillagers",
+    "issues": "https://github.com/SpaceClouds42/BetterVillagers/issues"
+  },
+  "license": "LGPL-3.0",
+
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      {
+        "value": "us.spaceclouds42.bettervillagers.Common::INSTANCE"
+      }
+    ]
+  },
+  "mixins": [
+    "bettervillagers.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric-language-kotlin": ">=1.6.3+kotlin.1.5.21",
+    "fabric": "0.37.2+1.18_experimental",
+    "minecraft": ">=1.17"
+  }
+}
